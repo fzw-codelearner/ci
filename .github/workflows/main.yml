@@ -1,5 +1,7 @@
 name: Build on Debian bookworm
 on:
+  watch:
+    types: started
   push:
     branches: [ branch-1.2 ]
     paths:
