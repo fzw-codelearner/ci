@@ -10,7 +10,7 @@ on:
       - 'xmake.lua'
       - 'xmake/packages.lua'
       - 'xmake/packages/**'
-      - '.github/workflows/ci-xmake-debian-bookworm.yml'
+      - '.github/workflows/main.yml'
   pull_request:
     branches: [ branch-1.2 ]
     paths:
@@ -21,7 +21,7 @@ on:
       - 'xmake.lua'
       - 'xmake/packages.lua'
       - 'xmake/packages/**'
-      - '.github/workflows/ci-xmake-debian-bookworm.yml'
+      - '.github/workflows/main.yml'
 
 env:
   XMAKE_ROOT: y
